@@ -5,5 +5,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-require '../models/viewFactory.php';
-require '../models/daoFactory.php';
+
+function getView($view){
+    $path = '../view/'.$view.'.php';
+    if(file_exists($path)){
+        return include $path;
+    }  else {
+        return include '../view/default.php';
+    }
+}

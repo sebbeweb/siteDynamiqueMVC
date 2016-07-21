@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+h2{
+  text-align: center;
+  margin: 0;
+}
+h3{
+  text-align: center;
+}
+nav{
+  font-size: 25px;
+  border-bottom: 5px solid green;
+  height: 50px;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-around
+}
+li{
+  list-style-type: none;
+}
+a{
+  list-style: none;
+}
+section{
+  height: 500px;
+  background-color: gray;
+  /*overflow-y: scroll;*/
+}
+
+p{
+  text-align: center;
+}
+
+/* 
+    Created on : 19 juil. 2016, 14:02:03
+    Author     : sebastien
+*/
+

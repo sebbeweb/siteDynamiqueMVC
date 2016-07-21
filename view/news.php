@@ -11,4 +11,9 @@ include '../view/template/nav.php';
 /*
 * Insertion du code d'affichache des news
 */
+foreach(getNews() as $row) {
+    echo "<h3 class=''>".$row["titre"]." - ".$row["date"]."</h3>";
+        echo "<p class=''>".$row["sujet"]."</p>";
+  	echo "<p class=''>".$row["auteur"]."</p>";
+}
 include '../view/template/footer.php';
